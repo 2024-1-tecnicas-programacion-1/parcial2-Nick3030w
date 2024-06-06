@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 public class VehiculoTest {
     // TODO: Descomenta el siguiente código una vez hayas completado la clase Vehiculo
-    /**
     private Vehiculo vehiculo;
 
     @BeforeEach
@@ -58,5 +57,4 @@ public class VehiculoTest {
         vehiculo.setAño(2018);
         assertEquals(2018, vehiculo.getAño());
     }
-    **/
 }
