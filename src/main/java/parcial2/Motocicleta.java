@@ -12,6 +12,11 @@ public class Motocicleta extends Vehiculo{
         super(marca, modelo, año);
         this.tipoMotocicleta = tipoMotocicleta;
     }
+    /**
+     * Metodo sobreescrito que imprime la informacion
+     * Complejidad: 0(1) complejidad constante.
+     * @return 
+     */
     @Override
     public String imprimirInformacion(){
     String info = marca + " " + modelo + " " + año + ", tipo de motocicleta: " + tipoMotocicleta;
